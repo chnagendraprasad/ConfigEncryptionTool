@@ -53,11 +53,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\Release\ConfigEncryptionTool.Form1.resources" />
+    <EmbeddedResource Include="obj\Release\ConfigEncryptionTool.Properties.Resources.resources" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -67,6 +75,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="bin\Debug\ConfigEncryptionTool.exe.config" />
+    <None Include="bin\Release\ConfigEncryptionTool.exe.config" />
+    <None Include="obj\Release\ConfigEncryptionTool.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Release\ConfigEncryptionTool.csproj.GenerateResource.cache" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -81,6 +95,21 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\CompanyLogo.jpeg" />
+    <Content Include="bin\Debug\ConfigEncryptionTool.exe" />
+    <Content Include="bin\Debug\ConfigEncryptionTool.pdb" />
+    <Content Include="bin\Debug\icon.ico" />
+    <Content Include="bin\Release\CompanyLogo.jpeg" />
+    <Content Include="bin\Release\ConfigEncryptionTool.exe" />
+    <Content Include="bin\Release\ConfigEncryptionTool.pdb" />
+    <Content Include="obj\Release\ConfigEncryptionTool.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\ConfigEncryptionTool.exe" />
+    <Content Include="obj\Release\ConfigEncryptionTool.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Release\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
