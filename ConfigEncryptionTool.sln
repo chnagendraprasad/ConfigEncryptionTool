@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.34112.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigEncryptionTool", "ConfigEncryptionTool\ConfigEncryptionTool.csproj", "{1245D46F-D74E-45CA-8149-931A3E7C1F92}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ConfigEncryptionToolSetup", "ConfigEncryptionToolSetup\ConfigEncryptionToolSetup.vdproj", "{6C623F68-5FF6-44A3-84D2-434D0FE63D69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1245D46F-D74E-45CA-8149-931A3E7C1F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1245D46F-D74E-45CA-8149-931A3E7C1F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1245D46F-D74E-45CA-8149-931A3E7C1F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1245D46F-D74E-45CA-8149-931A3E7C1F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C623F68-5FF6-44A3-84D2-434D0FE63D69}.Debug|Any CPU.ActiveCfg = Debug
+		{6C623F68-5FF6-44A3-84D2-434D0FE63D69}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AFF3BC2-4DBE-42C2-9D3D-DB04BF249602}
+	EndGlobalSection
+EndGlobal
